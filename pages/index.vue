@@ -1,6 +1,14 @@
 <template >
   <div
-    class="relative flex flex-col justify-center min-h-screen overflow-hidden"
+    class="
+      relative
+      flex flex-col
+      justify-center
+      min-h-screen
+      overflow-hidden
+      bg-[url('../static/bg_login.png')]
+      bg-no-repeat bg-cover
+    "
   >
     <div
       class="
@@ -89,11 +97,9 @@
       </form>
       <p class="mt-8 text-xs font-light text-center text-white">
         Don't have an account?
-        <a
-          href="#"
-          class="font-medium text-purple-600 hover:underline hover:text-white"
-          >Sign up</a
-        >
+        <NuxtLink to="/register" class="font-medium text-white hover:underline">
+          Sign up
+        </NuxtLink>
       </p>
     </div>
   </div>
