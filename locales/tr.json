@@ -1,0 +1,11 @@
+{
+  "tr": {
+    "message": {
+      "hello": "Merhaba",
+      "login": {
+        "username": "Kullanıcı Adı",
+        "password": "Şifre"
+      }
+    }
+  }
+}

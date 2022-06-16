@@ -1,0 +1,11 @@
+{
+  "en": {
+    "message": {
+      "hello": "Hello",
+      "login": {
+        "username": "User Name",
+        "password": "Password"
+      }
+    }
+  }
+}

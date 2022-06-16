@@ -1,0 +1,11 @@
+{
+  "fr": {
+    "message": {
+      "hello": "Bonjour",
+      "login": {
+        "username": "Nom dutilisateur",
+        "password": "Le mot de passe"
+      }
+    }
+  }
+}

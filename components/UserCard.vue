@@ -7,12 +7,6 @@ export default {
     };
   },
 
-  //   mounted() {
-  //     this.getUsers().then((res) => {
-  //       this.users = res;
-  //     });
-  //   },
-
   methods: {
     async getUsers() {
       await fetch(

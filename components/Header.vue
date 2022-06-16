@@ -1,7 +1,9 @@
 
 <script>
+import LanguageInputVue from "./LanguageInput.vue";
 export default {
   name: "Header",
+  components: { LanguageInputVue },
 };
 </script>
 
@@ -44,9 +46,8 @@ export default {
             uppercase
             text-white
           "
-          href="#pablo"
         >
-          Dashboard
+          <div>Dashboard</div>
         </a>
         <button
           class="
@@ -99,6 +100,11 @@ export default {
             </a>
           </li>
           <li class="nav-item">
+            <div class="ml-4 mt-1">
+              <LanguageInputVue />
+            </div>
+          </li>
+          <li class="nav-item">
             <a
               class="
                 px-3
@@ -112,7 +118,6 @@ export default {
                 text-white
                 hover:opacity-75
               "
-              href="#pablo"
             >
               <i
                 class="fab fa-twitter text-lg leading-lg text-white opacity-75"
