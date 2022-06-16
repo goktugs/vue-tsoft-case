@@ -11,7 +11,6 @@ export default {
   methods: {
     onSubmit() {
       const userData = JSON.parse(JSON.stringify(this.userData));
-      console.log(userData);
     },
   },
 };

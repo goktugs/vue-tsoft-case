@@ -1,3 +1,6 @@
+<script>
+</script>
+
 <template >
   <div
     class="
@@ -89,6 +92,7 @@
                 hover:bg-purple-600
                 focus:outline-none focus:bg-purple-600
               "
+              @click="login"
             >
               Login
             </button>
