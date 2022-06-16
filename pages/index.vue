@@ -7,18 +7,18 @@
         w-full
         p-6
         m-auto
-        bg-white
+        bg-transparent
         border-t border-purple-600
         rounded
         shadow-lg shadow-purple-800/50
         lg:max-w-md
       "
     >
-      <h1 class="text-3xl font-semibold text-center text-purple-700">LOGO</h1>
+      <h1 class="text-3xl font-semibold text-center text-white">LOGO</h1>
 
       <form class="mt-6">
         <div>
-          <label for="email" class="block text-sm text-gray-800">Email</label>
+          <label for="email" class="block text-sm text-white">Email</label>
           <input
             type="email"
             class="
@@ -28,7 +28,7 @@
               py-2
               mt-2
               text-purple-700
-              bg-white
+              bg-purple-400
               border
               rounded-md
               focus:border-purple-400
@@ -41,7 +41,7 @@
         </div>
         <div class="mt-4">
           <div>
-            <label for="password" class="block text-sm text-gray-800"
+            <label for="password" class="block text-sm text-white"
               >Password</label
             >
             <input
@@ -53,7 +53,7 @@
                 py-2
                 mt-2
                 text-purple-700
-                bg-white
+                bg-purple-400
                 border
                 rounded-md
                 focus:border-purple-400
@@ -87,9 +87,11 @@
           </div>
         </div>
       </form>
-      <p class="mt-8 text-xs font-light text-center text-gray-700">
+      <p class="mt-8 text-xs font-light text-center text-white">
         Don't have an account?
-        <a href="#" class="font-medium text-purple-600 hover:underline"
+        <a
+          href="#"
+          class="font-medium text-purple-600 hover:underline hover:text-white"
           >Sign up</a
         >
       </p>
